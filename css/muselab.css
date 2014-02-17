@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+body {  color:#606; font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif; }
+
+#wrapper { width:960px; margin:0 10px 0 200px; color: #606; font-size:40px; font: 14px/21px  MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;} 
+div { margin: 50px auto 50px auto; }
+h1, h2 { color:#c60; }
+
+#time {background-color: #fff;}
+
+#logo {width: 203px; height: 94px;}
+
+#left-side { width:200px; margin-top:0px;  float:left; position:fixed;}
+#left-side li { text-decoration:none; list-style:none; padding-bottom:20px;}
+#left-side a { color:#606; }
+#left-side a:hover { color:#c60; }
+#left-side a:visited {text-decoration:none;}
+#left-side a:hover {text-decoration:underline;}
+#left-side a:active {text-decoration:underline;}
+#left-side input { width:150px; clear:both; background-color:#FFC; border:none; color:#606; }
+
+#right-side { width:100px; margin-top:0px; float:right; position:fixed; right:0px; }
+#right-side ul li { text-decoration:none; list-style:none; padding-bottom:20px; display:block;}
+a:link {text-decoration:none;}
+
+
+#muselab {  width:960px; margin-top: 50px; margin-left:50px;}
+#muselab img { padding-top:20px; }
+#banner img { margin-top:20px; width: 800px; height: 313px; margin-left: 30px; }
+
+/* team page */
+#team h2 { padding-top:20px; margin-left:50px;}
+#profile li:first-child { margin-top: 20px; }
+#profile li:last-child  { margin-bottom: 40px ;}
+
+#profile li {
+	display: inline-block;
+	list-style: none;
+	float: left;
+	margin-top: 3px;
+}
+
+#profile ul {
+	padding: 1em;
+}
+
+.profile {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: .5em;
+}
+
+
+/*blog section */
+#blog { clear:both; margin-top: 30px; margin-left:50px; }
+#blog h2 { padding-top:20px; }
+#post1, #post2 { margin-bottom:20px; }
+
+/* works */
+#works { margin-left: 50px; margin-top:20px; margin-bottom:50px; }
+#works h2 { padding-top:20px; }
+
+/*gallery section*/
+#gallery { margin-top: 20px; margin-left:50px; }
+#placeholder { width:550px; height:400px; padding-bottom:20px;}
+#gallery li { text-decoration:none; list-style:none; display:inline; margin-top:50px; padding-left:10px;}
+#gallery li img { width:100px; height:100px; }
+#gallery h3 { text-align:center; }
+#gallery h2 { padding-top:20px; }
+
+/* contact us */
+
+#contact { margin-left: 100px; height:300px; margin-top:110px;}
+#contact p { line-height:40px;}
+.contact_form h2, .contact_form label {font-family:Georgia, Times, "Times New Roman", serif;}
+
+.form_hint, .required_notification {font-size: 11px;}
+
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px;
+	padding:0px;
+}
+
+.contact_form li{
+	padding:12px;
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+
+/*creates border above first element of the form(label for name and last element submit button*/
+.contact_form li:first-child,  {
+	border-bottom:1px solid #777;
+}
+
+/*style the header */
+.contact_form h2 {
+	margin:0;
+	display: inline;
+}
+.required_notification {
+	color:#d45252;
+	margin:5px 0 0 0;
+	display:inline;
+	float:right;
+}
+
+/*styling the label, input, textarea and button*/
+.contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+.contact_form input {
+	height:20px;
+	width:220px;
+	padding:5px 8px;
+}
+.contact_form textarea {padding:8px; width:300px;}
+.contact_form button {margin-left:156px;}
+
+.contact_form input, .contact_form textarea {
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+}
+/* Button Style */
+button.submit {
+	background-color: #68b12f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+	background: -webkit-linear-gradient(top, #68b12f, #50911e);
+	background: -moz-linear-gradient(top, #68b12f, #50911e);
+	background: -ms-linear-gradient(top, #68b12f, #50911e);
+	background: -o-linear-gradient(top, #68b12f, #50911e);
+	background: linear-gradient(top, #68b12f, #50911e);
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #9fd574;
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+	opacity:.85;
+	cursor: pointer;
+}
+button.submit:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset;
+	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+	-o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
+.contact_form input:focus, .contact_form textarea:focus { /* add this to the already existing style */
+	padding-right:70px;
+}
+
+
+.contact_form input, .contact_form textarea { /* add this to the already existing style */
+	-moz-transition: padding .25s;
+	-webkit-transition: padding .25s;
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+
+.contact_form input, .contact_form textarea {
+	padding-right:30px;
+}
+
+input:required, textarea:required {
+	background: #fff url(images/red_asterisk.png) no-repeat 98% center;
+}
+
+::-webkit-validation-bubble-message {
+	padding: 1em;
+}
+
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid { /* when a field is considered invalid by the browser */
+	background: #fff url(images/invalid.png) no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* footer */
+#footer { text-align:center; border-top: #ccc solid 1px; position:fixed; }
